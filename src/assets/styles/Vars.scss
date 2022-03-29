@@ -1,0 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Muli&display=swap);
+
+$theme-font: "Muli", sans-serif;
+$main-color: #978144;
+
+:root {
+  --gridList-column: 150px;
+  --gridList-rows: 200px;
+  --gridList-gap: 15px;
+}

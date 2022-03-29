@@ -1,0 +1,25 @@
+.carousel {
+  width: 92vw;
+  margin: 20px auto;
+  position: relative;
+}
+
+.carousel__container {
+  font-size: 0;
+  display: grid;
+  padding-bottom: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(var(--gridList-column), 1fr));
+  grid-auto-rows: var(--gridList-rows);
+  grid-template-rows: masonry;
+  grid-auto-flow: row dense;
+  grid-gap: var(--gridList-gap, 15px);
+  gap: var(--gridList-gap, 15px);
+}
+
+.carousel__container .carousel-item {
+  opacity: 0.5;
+}
+
+.carousel__container:hover .carousel-item:hover {
+  opacity: 1;
+}

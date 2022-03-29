@@ -1,0 +1,24 @@
+@media only screen and (max-width: 600px) {
+  .main__description--title {
+    font-size: 30px;
+  }
+
+  .footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 37.5rem) {
+  :root {
+    --gridList-column: 180px;
+    --gridList-rows: 220px;
+  }
+}
+
+@media screen and (min-width: 60rem) {
+  :root {
+    --gridList-column: 200px;
+    --gridList-rows: 250px;
+  }
+}
